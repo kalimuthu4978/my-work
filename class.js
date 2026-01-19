@@ -56,7 +56,7 @@ while(index < words.length){
 
 //let fruits = ['banana', 'apple', 'orange', 'kiwi', 'grape', 'mango', 'strawberry', 'blueberry'];
 
-let numb = [3,4,1,5,2];
+/* let numb = [3,4,1,5,2];
 let sqnumb = [];
 // Normal method
 for (let i = 0; i <numb.length; i++){
@@ -76,4 +76,42 @@ console.log(sqdnumb);
 
 // using arrow function
 let sqrtnumb = numb.map(i => i**2);
-console.log(sqrtnumb);  
+console.log(sqrtnumb);  */ 
+
+//filter method - it is used to create a new array by filtering the elements of the original array based on a condition
+
+
+let numb = [3,4,1,5,2];
+/*function filt(f) {
+    if (f > 3) {
+        return true;
+    }
+
+}
+
+console.log(numb.filter(filt));*/
+
+// using arrow function
+/* let filtnum = numb.filter(f=> f>2);
+console.log(filtnum);
+
+let evennumb = numb.filter(f=> f%2 ==0);
+console.log(evennumb);*/ 
+let sum = 0
+//reduce method - it is used to reduce the array to a single value by applying a function to each element of the array
+//normal method
+/* for(let i= 0; i<numb.length; i++){
+    sum = sum + numb[i]
+}
+console.log(sum); */
+
+// reducer method
+/* let redsum = numb.reduce((accumulator, currentvalue) => accumulator + currentvalue);
+console.log(redsum);
+
+function red(a,b) {
+    console.log(`a: ${a}, b: ${b}`);    
+    return a + b;
+}
+console.log(numb.reduce(red));
+ */
