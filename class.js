@@ -130,23 +130,23 @@ console.log(me.name);
 console.log(me["name"]); */
 
 //JSON      
-let jsonme = '{ "name": "John Doe", "age": 30, "profession": "Engineer", "location" : "Coimbatore" }';
+//let jsonme = '{ "name": "John Doe", "age": 30, "profession": "Engineer", "location" : "Coimbatore" }';
 
 
 // JS oBbject vs JSON
 // JS object - properties are not enclosed in double quotes, functions are allowed as values
 // JSON - properties are enclosed in double quotes, functions are not allowed as values
 
-console.log(JSON.stringify(me)) //converts JS object to JSON string
+/* console.log(JSON.stringify(me)) //converts JS object to JSON string
 
 console.log(JSON.parse(jsonme)) // converts JSON string to JS object
-
+ */
 // key value pairs - properties
 // key - string
 // value - any data type (string, number, boolean, array, object, function)
-for (let key in me){
+/* for (let key in me){
     console.log(`${key} : ${me[key]}`);
 }
 console.log(Object.keys(me)); // returns an array of keys
 console.log(Object.values(me)); // returns an array of values
-console.log(Object.entries(me)); // returns an array of key value pairs as arrays
+console.log(Object.entries(me)); // returns an array of key value pairs as arrays */
