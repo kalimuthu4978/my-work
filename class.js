@@ -150,3 +150,9 @@ console.log(JSON.parse(jsonme)) // converts JSON string to JS object
 console.log(Object.keys(me)); // returns an array of keys
 console.log(Object.values(me)); // returns an array of values
 console.log(Object.entries(me)); // returns an array of key value pairs as arrays */
+
+
+// Day 3 - GIT hub, HTML, CSS basics
+// Git hub - version control system, used to track changes in code, collaborate with other developers
+// HTML - Hyper Text Markup Language, used to create web pages
+// CSS - Cascading Style Sheets, used to style web pages
