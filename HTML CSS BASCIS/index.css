@@ -1,0 +1,48 @@
+/* external css file */
+/* class selector */
+.italic {
+    font-style: italic;
+}
+/* id selector */
+#author {
+    font-weight: bold;
+}
+ /* internal  styling */   
+ol {
+    margin-left: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-underline-position: under;
+}
+
+/* 
+    From highest to lowest
+    precedence order:
+    1. inline style
+    2. internal css
+    3. external css
+
+    if we apply inline, internal and external css to the same element,
+    then inline style will take highest precedence
+
+    in index.html, for autor id, we have applied all internal and inline styles,
+    so the text will take inline one and apply that css property
+
+    WRT the selector
+        1. ID selector
+            Example: #author
+        2. Class selector
+            Example: .italic
+        3. Element selector
+            Example: ol
+    ID selector has highest precedence.
+
+    if we need to change the priority, we can use !important keyword
+    Example:    
+        #author {
+            font-weight: bold !important;
+        }  
+    if we use !important in internal css for author id,
+    then it will take precedence over inline style
+    it is not recommended to use !important, since it makes debugging difficult
+*/
