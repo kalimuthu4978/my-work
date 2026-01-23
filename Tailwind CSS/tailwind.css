@@ -1,3 +1,11 @@
 /* tailwind css 
     these are predefined css classes which we can use directly in html elements
 */
+
+/* can we add the class or selector inbetween a paragraph?
+    No, we cannot add class or id selector inbetween a paragraph
+    it should be added to the block level element
+    Example:
+        <p>This is a <span class="text-red-500">red</span> word.</p>
+    Here, span is an inline element, so we can add class to it
+    but we cannot add class to the text node directly
