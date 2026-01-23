@@ -9,3 +9,4 @@
         <p>This is a <span class="text-red-500">red</span> word.</p>
     Here, span is an inline element, so we can add class to it
     but we cannot add class to the text node directly
+    
