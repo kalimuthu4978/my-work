@@ -1,0 +1,40 @@
+nav > ul > li{
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    text-decoration:  none;
+}
+
+.Menu {
+    display: flex;  /*Maked the list to horizontal by default*/
+    flex-direction: row ; /* By default the direction will be row*/
+    /* justify-content: space-around; */ /* Horizontal alignment */
+    /* gap: 25px; */
+    justify-content: right;
+    /*align-items: center ; /*Vertical alignment*/*/
+}
+
+.Menu > li {
+    padding: 8px;
+    border: 1px solid green;
+    margin: 1px ;
+    border-collapse: collapse;
+    /* width: 90px;
+    height: 25px; */
+    text-align: center;
+    flex-grow: 1; /* ADjusts the width of the li elements to page size*/
+}
+
+.Menu > li:hover {
+    background-color: green;
+    color: white;
+}
+
+.Menu > li > a:hover{
+    color: white;
+}
+
+.courses{
+    flex-grow: 2;
+}
