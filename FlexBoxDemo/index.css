@@ -12,7 +12,7 @@ nav > ul > li > a {
     /* justify-content: space-around; */ /* Horizontal alignment */
     /* gap: 25px; */
     justify-content: right;
-    /*align-items: center ; /*Vertical alignment*/*/
+    /*align-items: center ; /*Vertical alignment*/
 }
 
 .Menu > li {
@@ -35,6 +35,29 @@ nav > ul > li > a {
     color: white;
 }
 
+/* 
 .courses{
     flex-grow: 2;
+}
+
+.home{
+    flex-grow: 1;
+} */
+
+/* To change the order of the list*/
+
+.home{
+    order : 1;
+}
+.courses{
+    order : 2;
+}
+.products{
+    order:3
+}
+.Resources{
+    order: 4;
+}
+.practise{
+    order: 5;
 }
